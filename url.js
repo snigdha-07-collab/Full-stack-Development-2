@@ -1,12 +1,10 @@
-const {url} = require('url');
-const u= new URL('https://www.example.conm:8080/products/list?category=books&sort=asc#section2');
-console.log('Protocol:', u.protocol);
-console.log('Host:', u.hostname);
-console.log('port:', u.port);
-console.log('Pathname:', u.pathname);
-console.log('Hash:', u.hash);
-u.searchParams.forEach((v, k) => {
-  console.log( k,'=', v);
-});
+const myUrl = new URL("https://www.example.com:8080/products/item?id=101&name=Laptop");
 
-
+console.log("Protocol:", myUrl.protocol);
+console.log("Host:", myUrl.host);
+console.log("Hostname:", myUrl.hostname);
+console.log("Port:", myUrl.port);
+console.log("Pathname:", myUrl.pathname);
+console.log("Query:", myUrl.search);
+console.log("ID:", myUrl.searchParams.get("id"));
+console.log("Name:", myUrl.searchParams.get("name"));

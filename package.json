@@ -1,0 +1,15 @@
+{
+  "name": "first_express.app",
+  "version": "1.0.0",
+  "description": "Products REST API",
+  "license": "ISC",
+  "author": "Greeshmanth",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
