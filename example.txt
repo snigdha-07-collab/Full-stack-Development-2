@@ -1,0 +1,1 @@
+this is an example of file create using synchronous file system operations in node.js in this line was appended using fs.appendFileSync()

@@ -1,0 +1,4 @@
+File created using asynchronous fs methods in Node.js.
+Appended line using fs.appendFile().
+
+  const { method, url } = req;
