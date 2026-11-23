@@ -8,7 +8,7 @@ dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 9000;
-const mongoURI = process.env.MONGO_URI;
+const mongoURI = "mongodb+srv://charanyasaisri_db_user:amDyjzHfZ1JRNmI5@cluster0.ivcixan.mongodb.net/";
 const dbName = process.env.DB_NAME;
 
 connectDB(mongoURI, dbName);
