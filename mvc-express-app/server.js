@@ -9,7 +9,7 @@ import movieRoutes from "./routes/movieRoutes.js";
  //db connection
  dotenv.config();
 const PORT = process.env.PORT;
-const mongo_url = process.env.MONGO_URI;
+const mongo_url = "mongodb+srv://charanyasaisri_db_user:amDyjzHfZ1JRNmI5@cluster0.ivcixan.mongodb.net/";
 const db_name = process.env.DB_NAME;
 
 dbConnect(mongo_url, db_name);
