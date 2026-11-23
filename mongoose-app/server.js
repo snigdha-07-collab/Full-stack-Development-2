@@ -9,7 +9,7 @@ app.use(express.json());
 //db connection
 dotenv.config();
 const PORT = process.env.PORT;
-const mongo_url = process.env.MONGO_URI;
+const mongo_url = mongodb+srv://charanyasaisri_db_user:amDyjzHfZ1JRNmI5@cluster0.ivcixan.mongodb.net/;
 const DB_NAME = process.env.DB_NAME;
 
 mongoose.connect(mongo_url, { dbName: DB_NAME }).then(() => {
